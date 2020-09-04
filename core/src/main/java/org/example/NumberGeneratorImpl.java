@@ -1,6 +1,4 @@
-package example.com;
-
-import org.springframework.stereotype.Component;
+package org.example;
 
 import java.util.Random;
 

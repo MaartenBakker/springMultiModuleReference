@@ -1,4 +1,4 @@
-package example.com;
+package org.example;
 
 public interface NumberGenerator {
 

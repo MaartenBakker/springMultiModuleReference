@@ -1,5 +1,7 @@
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/example/com/GameImpl.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/example/com/NumberGenerator.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/example/com/Game.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/example/com/NumberGeneratorImpl.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/example/com/Main.java
+/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/Game.java
+/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/NumberGenerator.java
+/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/MessageGeneratorImpl.java
+/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/GameImpl.java
+/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/MessageGenerator.java
+/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/AppConfig.java
+/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/NumberGeneratorImpl.java

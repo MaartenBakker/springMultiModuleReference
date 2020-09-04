@@ -1,5 +1,7 @@
-example/com/GameImpl.class
-example/com/NumberGeneratorImpl.class
-example/com/NumberGenerator.class
-example/com/Main.class
-example/com/Game.class
+org/example/NumberGenerator.class
+org/example/Game.class
+org/example/MessageGenerator.class
+org/example/MessageGeneratorImpl.class
+org/example/NumberGeneratorImpl.class
+org/example/GameImpl.class
+org/example/AppConfig.class

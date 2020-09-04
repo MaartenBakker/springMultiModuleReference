@@ -1,10 +1,13 @@
-package example.com;
+package org.example.console;
 
+import org.example.AppConfig;
+import org.example.Game;
+import org.example.MessageGenerator;
+import org.example.NumberGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     private static final Logger log = LoggerFactory.getLogger(Main.class);
@@ -30,11 +33,11 @@ public class Main {
         // get game bean from context (container)
         Game game = context.getBean(Game.class);
 
-        // get messageGenerator from context
+        // get messageGenerator bean from context
 
         MessageGenerator messageGenerator = context.getBean(MessageGenerator.class);
-        System.out.println(messageGenerator.getMainMessage());
-        System.out.println(messageGenerator.getResultMessage());
+        log.info(messageGenerator.getMainMessage());
+        log.info(messageGenerator.getResultMessage());
 
 
         // close context (container)
