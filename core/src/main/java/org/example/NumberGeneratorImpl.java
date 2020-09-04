@@ -14,14 +14,25 @@ public class NumberGeneratorImpl implements NumberGenerator {
     @MaxNumber
     private int maxNumber;
 
+    @Autowired
+    @MinNumber
+    private int minNumber;
+
     // -- Public Methods --
     @Override
     public int next() {
-        return random.nextInt(maxNumber);
+        int number = random.nextInt(maxNumber-minNumber);
+        number = number + minNumber;
+        return number;
     }
 
     @Override
     public int getMaxNumber() {
         return maxNumber;
+    }
+
+    @Override
+    public int getMinNumber() {
+        return minNumber;
     }
 }
