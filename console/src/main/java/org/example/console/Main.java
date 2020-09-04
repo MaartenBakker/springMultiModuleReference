@@ -20,18 +20,18 @@ public class Main {
                 = new AnnotationConfigApplicationContext(AppConfig.class);
 
         //get numberGenerator bean from context (container)
-        NumberGenerator numberGenerator
-                = context.getBean(NumberGenerator.class); // overloaded, also
-            // works without "numberGenerator"
-
-        // call method next() to get a random number
-        int number = numberGenerator.next();
-
-        // log generated number
-        log.info("number = {}", number);
-
-        // get game bean from context (container)
-        Game game = context.getBean(Game.class);
+//        NumberGenerator numberGenerator
+//                = context.getBean(NumberGenerator.class); // overloaded, also
+//            // works without "numberGenerator"
+//
+//        // call method next() to get a random number
+//        int number = numberGenerator.next();
+//
+//        // log generated number
+//        log.info("number = {}", number);
+//
+//        // get game bean from context (container)
+//        Game game = context.getBean(Game.class);
 
         // get messageGenerator bean from context
 
