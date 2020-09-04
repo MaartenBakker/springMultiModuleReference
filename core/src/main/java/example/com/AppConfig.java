@@ -14,11 +14,13 @@ public class AppConfig {
         return new NumberGeneratorImpl();
     }
 
-    @Bean Game game() {
+    @Bean
+    public Game game() {
         return new GameImpl();
     }
 
-    @Bean MessageGenerator messageGenerator() {
+    @Bean
+    public MessageGenerator messageGenerator() {
         return new MessageGeneratorImpl();
     }
 
