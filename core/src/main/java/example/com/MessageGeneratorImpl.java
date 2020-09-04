@@ -9,7 +9,6 @@ import javax.annotation.PostConstruct;
 public class MessageGeneratorImpl implements MessageGenerator {
 
     // -- Contants --
-
     private static final Logger log = LoggerFactory.getLogger(MessageGeneratorImpl.class);
 
     // -- Fields --
@@ -19,12 +18,11 @@ public class MessageGeneratorImpl implements MessageGenerator {
 
     // -- Init --
     @PostConstruct
-    private void initMessage() {
-        log.info("The guess count = " + String.valueOf(guessCount));
+    private void init() {
+        log.info("game = {}", game);
     }
 
     // -- public Methods --
-
     @Override
     public String getMainMessage() {
         return "This is the result of getMainMessage()";
