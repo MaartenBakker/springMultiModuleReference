@@ -1,6 +1,6 @@
 package org.example.console;
 
-import org.example.config.AppConfig;
+import org.example.config.GameConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -14,30 +14,9 @@ public class Main {
 
         // create context (container)
         ConfigurableApplicationContext context
-                = new AnnotationConfigApplicationContext(AppConfig.class);
+                = new AnnotationConfigApplicationContext(GameConfig.class);
 
-        //get numberGenerator bean from context (container)
-//        NumberGenerator numberGenerator
-//                = context.getBean(NumberGenerator.class); // overloaded, also
-//            // works without "numberGenerator"
-//
-//        // call method next() to get a random number
-//        int number = numberGenerator.next();
-//
-//        // log generated number
-//        log.info("number = {}", number);
-//
-//        // get game bean from context (container)
-//        Game game = context.getBean(Game.class);
-
-        // get messageGenerator bean from context
-
-//        MessageGenerator messageGenerator = context.getBean(MessageGenerator.class);
-//        log.info(messageGenerator.getMainMessage());
-//        log.info(messageGenerator.getResultMessage());
-//
-
-        // close context (container)
+        // close context
         context.close();
     }
 }

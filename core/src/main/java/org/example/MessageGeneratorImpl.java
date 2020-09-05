@@ -1,21 +1,26 @@
 package org.example;
 
-import org.example.Game;
-import org.example.MessageGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
+@Component
 public class MessageGeneratorImpl implements MessageGenerator {
 
     // -- Contants --
     private static final Logger log = LoggerFactory.getLogger(MessageGeneratorImpl.class);
 
     // -- Fields --
-    @Autowired
     private Game game;
+
+    // -- constructors --
+    @Autowired
+    public MessageGeneratorImpl(Game game) {
+        this.game = game;
+    }
 
     // -- Init --
     @PostConstruct
