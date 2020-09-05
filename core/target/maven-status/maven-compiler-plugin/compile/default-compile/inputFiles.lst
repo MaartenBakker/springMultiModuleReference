@@ -1,7 +1,10 @@
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/Game.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/NumberGenerator.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/MessageGeneratorImpl.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/GameImpl.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/MessageGenerator.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/AppConfig.java
-/Users/anna/Java Programs/guess-the-number-game/core/src/main/java/org/example/NumberGeneratorImpl.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/MaxNumber.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/NumberGeneratorImpl.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/NumberGenerator.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/MessageGeneratorImpl.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/config/GameConfig.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/Game.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/MinNumber.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/GuessCount.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/MessageGenerator.java
+/Users/maartenbakker/JavaProjects/guess-the-number-game/springMultiModuleReference/core/src/main/java/org/example/GameImpl.java
